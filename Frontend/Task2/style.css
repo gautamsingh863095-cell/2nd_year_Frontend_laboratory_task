@@ -1,0 +1,87 @@
+/* Element Selector */
+body {
+    font-family: Arial;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+/* Element Selector */
+h1 {
+    background-color: #2563eb;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Element Selector */
+h2 {
+    color: #333333;
+}
+
+/* ID Selector */
+#about {
+    background-color: rgb(220, 240, 255);
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #2563eb;
+}
+
+/* Class Selector */
+.team {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #555555;
+}
+
+/* Class Selector */
+.highlight {
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+
+/* Class Selector */
+.movies-section {
+    background-color: #fff3cd;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Ordered List Styling */
+.movies {
+    color: #8b4513;
+    padding: 20px 40px;
+}
+
+/* Class Selector */
+.cities-section {
+    background-color: rgb(220, 255, 220);
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Unordered List Styling */
+.cities {
+    color: #006400;
+    padding: 20px 40px;
+}
+
+/* Pseudo-class Selector */
+.movies li:hover {
+    color: #ff0000;
+    cursor: pointer;
+}
+
+/* Pseudo-class Selector */
+.cities li:hover {
+    color: rgb(0, 0, 255);
+    cursor: pointer;
+}
+
+/* Element Selector */
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
