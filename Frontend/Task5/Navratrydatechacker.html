@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Entry Eligibility Checker</title>
+</head>
+<body>
+    <h2>Navratri Entry/Exit Date Checker</h2>
+
+    <script>
+        let date = prompt("Enter your Entry/Exit date (YYYY-MM-DD):");
+
+        let entryDate = new Date(date);
+        let startDate = new Date("2026-10-11");
+        let endDate = new Date("2026-10-19");
+
+        if (date !== null && date.trim() !== "" && !isNaN(entryDate.getTime())) {
+
+            let result = entryDate >= startDate && entryDate <= endDate
+                ? "You are eligible to Enter the University."
+                : "You are not eligible to Enter the University.";
+
+            alert(result);
+            document.write("<h3>Date: " + date + "</h3>");
+            document.write("<h3>" + result + "</h3>");
+        } else {
+            alert("Please enter a valid Entry/Exit Date.");
+            document.write("<h3>Invalid Date entered!</h3>");
+        }
+    </script>
+</body>
+</html>
